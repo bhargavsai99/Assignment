@@ -9,6 +9,7 @@ namespace Assignment2
         public static void Main()
         {
             Console.WriteLine("WELCOME");
+	    Console.WriteLine("Please Choose your Desired Option")
             Console.WriteLine("1.Admin\n2.Customer");
             int option = Convert.ToInt32(Console.ReadLine());
             AddAccountpf app = new AddAccountpf();
